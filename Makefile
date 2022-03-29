@@ -1,8 +1,7 @@
 install:
     pip install --upgrade pip &&\
         pip install -r requirements.txt
-
-format:
+lint:
     pylint --disable=R,C hello_world.py
 
 test:
