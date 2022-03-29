@@ -5,4 +5,4 @@ lint:
 	pylint --disable=R,C hello_world.py
 
 test:
-	python -m pytest -vv --cov=hello test_helloworld.py
+	python -m pytest -vv --cov=hello_world.py test_helloworld.py
