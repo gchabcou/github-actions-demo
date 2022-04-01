@@ -5,4 +5,4 @@ def multiply(x, y):
     return x * y
 
 
-print(multiply(171, 5))
+print(multiply(171, 6))
